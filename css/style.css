@@ -252,7 +252,7 @@ section{padding:60px 2rem;}
 }
 
 /* ADDRESSES SECTION */
-.addresses-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px;}
+.addresses-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:32px;}
 .address-card{
   background:rgba(255,255,255,0.1);
   border:1px solid rgba(255,255,255,0.2);
@@ -431,6 +431,7 @@ footer ul li a:hover{color:#a8e063;}
   .nav-phone{font-size:12px;padding:8px 14px;}
   .footer-grid{grid-template-columns:1fr 1fr;}
   .doctors-grid{grid-template-columns:repeat(2,1fr);}
+  .addresses-grid{grid-template-columns:1fr 1fr;}
 }
 
 /* MOBILE */
@@ -503,6 +504,7 @@ footer ul li a:hover{color:#a8e063;}
   .contact-grid{grid-template-columns:1fr;}
   .contact-card{padding:16px;}
   .addresses-grid{grid-template-columns:1fr;gap:16px;}
+  .maps-grid{grid-template-columns:1fr !important;}
   .address-card{padding:20px;}
   .maps-dual{grid-template-columns:1fr;gap:12px;}
 
